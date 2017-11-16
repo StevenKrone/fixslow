@@ -1,13 +1,17 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
-
+import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
+import { RepairdialogComponent } from './repairdialog/repairdialog.component';
+import { TechnicianApplicationComponent } from './technician-application/technician-application.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    RepairdialogComponent,
+    TechnicianApplicationComponent
   ],
   imports: [
     BrowserModule
