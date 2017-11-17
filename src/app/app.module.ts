@@ -10,6 +10,8 @@ import { TechnicianApplicationComponent } from './_components/technician-applica
 import { LandingscreenComponent } from './_components/landingscreen/landingscreen.component';
 import { NavbarComponent } from './_components/navbar/navbar.component';
 import { AboutpageComponent } from './_components/aboutpage/aboutpage.component';
+import { TheSchedulerComponent } from './_components/the-scheduler/the-scheduler.component';
+import { FinancialsComponent } from './_components/financials/financials.component';
 
 
 @NgModule({
@@ -19,7 +21,9 @@ import { AboutpageComponent } from './_components/aboutpage/aboutpage.component'
     TechnicianApplicationComponent,
     LandingscreenComponent,
     NavbarComponent,
-    AboutpageComponent
+    AboutpageComponent,
+    TheSchedulerComponent,
+    FinancialsComponent
   ],
   imports: [
     BrowserModule,
